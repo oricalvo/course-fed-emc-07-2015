@@ -1,0 +1,6 @@
+C:\EMC\Front End Development\Samples@class\04 jQuery\01 GettingStarted\GettingStarted\bin\GettingStarted.dll.config
+C:\EMC\Front End Development\Samples@class\04 jQuery\01 GettingStarted\GettingStarted\bin\GettingStarted.dll
+C:\EMC\Front End Development\Samples@class\04 jQuery\01 GettingStarted\GettingStarted\bin\GettingStarted.pdb
+C:\EMC\Front End Development\Samples@class\04 jQuery\01 GettingStarted\GettingStarted\obj\Debug\GettingStarted.csprojResolveAssemblyReference.cache
+C:\EMC\Front End Development\Samples@class\04 jQuery\01 GettingStarted\GettingStarted\obj\Debug\GettingStarted.dll
+C:\EMC\Front End Development\Samples@class\04 jQuery\01 GettingStarted\GettingStarted\obj\Debug\GettingStarted.pdb
