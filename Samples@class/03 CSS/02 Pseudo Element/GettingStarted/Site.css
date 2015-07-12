@@ -1,0 +1,12 @@
+﻿div {
+    background-color: red;
+}
+
+    div.header {
+        background-color: blue;
+    }
+
+div:after {
+    content: 'abc';
+}
+

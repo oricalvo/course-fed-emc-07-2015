@@ -1,0 +1,18 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script src="Point.js"></script>
+    <script src="PointEx.js"></script>
+    <script>
+        //var pt1 = new Point(5, 10);
+        var pt1 = new PointEx(5, 10, 20);
+
+        console.log(pt1 instanceof PointEx);
+        console.log(pt1 instanceof Object);
+        console.log(pt1 instanceof Point);
+        console.log(pt1.constructor == PointEx);
+    </script>
+</body>
+</html>

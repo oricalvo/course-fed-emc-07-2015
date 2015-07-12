@@ -1,0 +1,25 @@
+﻿a {
+    font-size: 2em;
+}
+
+    a:visited {
+        color: yellow;
+    }
+
+    a:active {
+        color: brown;
+    }
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+    ul li {
+        border-bottom: 1px solid black;
+    }
+
+        ul li:first-child {
+            border-top: 1px solid black;
+        }

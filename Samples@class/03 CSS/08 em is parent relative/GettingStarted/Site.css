@@ -1,0 +1,38 @@
+﻿html {
+    font-size: 0.5em;
+}
+
+.parent {
+    background-color: red;
+    width: 10rem;
+    font-size: 1.5em;
+}
+
+.child {
+    background-color: blue;
+    width: 10rem;
+    font-size: 2em;
+}
+
+/*.parent {
+    background-color: red;
+    width: 10em;
+    font-size: 1.5em;
+}
+
+.child {
+    background-color: blue;
+    width: 10em;
+    font-size: 2em;
+}*/
+
+/*.parent {
+    background-color: red;
+    width: 100px;
+}
+
+.child {
+    background-color: blue;
+    width: 100px;
+    font-size: 2em;
+}*/

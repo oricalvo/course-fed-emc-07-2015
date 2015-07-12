@@ -1,0 +1,21 @@
+﻿.content, .side-bar {
+    display: inline-block;
+    height: 400px;
+}
+
+.side-bar {
+    background-color: green;
+    display: none;
+}
+
+.content {
+    width: 760px;
+    background-color: blue;
+}
+
+@media only screen and (min-device-width: 360px) {
+    .side-bar {
+        width: 200px;
+        display: block;
+    }
+}

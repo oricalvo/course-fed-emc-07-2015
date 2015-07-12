@@ -1,0 +1,16 @@
+﻿body {
+    font-size: 2em;
+}
+
+.span1 {
+    background-color: blue;
+    width: 5em;
+    display: inline-block;
+}
+
+.span2 {
+    background-color: blue;
+    width: 80px;
+    display: inline-block;
+}
+

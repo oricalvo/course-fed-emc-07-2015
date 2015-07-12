@@ -1,0 +1,11 @@
+﻿body {
+    font-size: 2em;
+}
+
+button {
+    font-size: inherit;
+}
+
+span {
+    font-size: 16px;
+}

@@ -1,0 +1,23 @@
+﻿.parent {
+    width: 10em;
+    height: 10em;
+    background-color: red;
+    text-align: center;
+}
+
+.child {
+    width: 5em;
+    height: 5em;
+    background-color: yellow;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.parent::after {
+    height: 100%;
+    display: inline-block;
+    width: 0px;
+    background-color: blue;
+    vertical-align: middle;
+    content: '';
+}
