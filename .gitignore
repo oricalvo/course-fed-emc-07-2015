@@ -1,5 +1,9 @@
-*.suo
 packages
 bin
 debug
+obj
+*.suo
+*.v12.suo
 *.user
+*.cache
+
