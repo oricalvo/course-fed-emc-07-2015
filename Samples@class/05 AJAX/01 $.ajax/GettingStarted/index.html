@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <style>
+        input[type=file] {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <ul data-bind="foreach: contacts">
+        <li>
+            <span data-bind="text: id"></span>
+            <span data-bind="text: name"></span>
+            <button data-bind="click: $root.remove">Delete</button>
+        </li>
+    </ul>
+
+    <button data-bind="click: send">Send</button>
+
+    <script src="knockout.js"></script>
+    <script src="jquery.js"></script>
+    <script src="App.js"></script>
+</body>
+</html>

@@ -1,20 +1,5 @@
 ﻿$(function () {
 
-    function MainView(element) {
-        var me = this;
-
-        me.element = element;
-        me.contacts = [];
-        me.ul = this.element.find("ul");
-
-        me.element.find("buttonAdd").on("click", function () {
-            me.buttonAdd_Click();
-        });
-    }
-
-    MainView.prototype.buttonAdd_Click = function () {
-    }
-
     var contacts = [
         { id: 1, name: "Ori" },
         { id: 2, name: "Roni" }
