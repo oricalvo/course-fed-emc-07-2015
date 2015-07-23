@@ -5,18 +5,16 @@
 </head>
 <body>
     <div ng-controller="HomeCtrl">
-        <ul>
-            <li ng-repeat="contact in contacts">
-                <span>{{contact.name}}</span>
-            </li>
-        </ul>
+        <clock timezone="tn" on-tick="onTick(time)" name="clock1"></clock>
 
-        <button ng-click="refresh()">Refresh</button>
+        <clock timezone="tn" on-tick="onTick(time)" name="clock2"></clock>
+
+        <button ng-click="talkToComponent()">Talk</button>
     </div>
 
     <script src="angular.js"></script>
     <script src="App.js"></script>
-    <script src="ContactService.js"></script>
+    <script src="ClockComponent.js"></script>
     <script src="HomeCtrl.js"></script>
 </body>
 </html>
