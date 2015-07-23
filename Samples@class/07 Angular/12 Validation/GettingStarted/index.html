@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="MyApp">
+<head>
+    <title></title>
+
+    <style>
+        .field {
+            margin-bottom: 1em;
+        }
+
+        input {
+            outline: none;
+        }
+
+        input.ng-invalid.ng-touched {
+            border: 2px solid red;
+        }
+
+        .validation-message {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div ng-controller="HomeCtrl">
+        <form novalidate name="form">
+            <div class="field">
+                <div class="field-label">
+                    Name:
+                </div>
+                <div class="field-editor">
+                    <input name="name" ng-model="name" required />
+                    <span ng-show="vf.name" class="validation-message">Please specify a non empty name</span>
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="field-label">
+                    E-Mail:
+                </div>
+                <div class="field-editor">
+                    <input ng-model="email" type="email" name="email" required ng-model-options="{updateOn: 'blur'}" />
+                    <span  ng-show="vf.email" class="validation-message">Please specify a valid email</span>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button ng-click="save()">Save</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="angular.js"></script>
+    <script src="App.js"></script>
+    <script src="HomeCtrl.js"></script>
+</body>
+</html>

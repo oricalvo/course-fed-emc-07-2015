@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="MyApp">
+<head>
+    <title></title>
+
+    <style>
+        [ng-cloak] {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div ng-controller="HomeCtrl">
+        <h1>My Application</h1>
+
+        <input type="checkbox" ng-model="componentMode" ng-change="onComponentModeChanged()" />
+
+        <div ng-include="url"></div>
+
+        <span ng-cloak>{{message}}</span> 
+    </div>
+
+    <script src="angular.js"></script>
+    <script src="App.js"></script>
+    <script src="HomeCtrl.js"></script>
+</body>
+</html>

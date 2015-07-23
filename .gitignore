@@ -6,4 +6,4 @@ obj
 *.v12.suo
 *.user
 *.cache
-
+node_modules
